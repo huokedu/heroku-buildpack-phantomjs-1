@@ -161,6 +161,6 @@ for DIR in $CACHED_DIRS ; do
   fi
 done
 
-#echo "-----> Dropping ivy cache from the slug" 
-#rm -rf $SBT_USER_HOME/.ivy2 
+echo "-----> Dropping ivy cache from the slug" 
+rm -rf $SBT_USER_HOME/.ivy2 
 

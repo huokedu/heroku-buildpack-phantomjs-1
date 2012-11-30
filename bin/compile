@@ -29,7 +29,7 @@ if [ ! -d $CACHE_DIR ]; then
 fi
 
 #create the cache dir if it doesn't exist
-rm -rf $CACHE_DIR
+# rm -rf $CACHE_DIR
 mkdir -p $CACHE_DIR
 
 # install JDK 
